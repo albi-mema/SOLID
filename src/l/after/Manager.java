@@ -1,6 +1,6 @@
 package l.after;
 
-public class Manager extends Employee {
+public class Manager extends Employee implements IEmployee{
 
     @Override
     public void calculatePerHourRate(int rank) {

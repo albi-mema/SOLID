@@ -1,12 +1,12 @@
 package l.after;
 
-public class CEO extends Employee {
+public class CEO extends Employee implements IEmployee{
 
     @Override
     public void calculatePerHourRate(int rank) {
         double baseAmount = 150;
 
-        salary = baseAmount * rank;
+        this.salary = baseAmount * rank;
     }
 
     @Override
